@@ -1,9 +1,9 @@
 package analytics;
-import database.DateBase;
+import database.DataBase;
 
 public class ReportBuilder {
-    private DateBase db;
-    public ReportBuilder(DateBase db) {
+    private DataBase db;
+    public ReportBuilder(DataBase db) {
         this.db = db;
     }
 }

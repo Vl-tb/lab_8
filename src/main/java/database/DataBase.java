@@ -1,6 +1,6 @@
 package database;
 
-public class DateBase extends БазаДаних {
+public class DataBase extends БазаДаних {
     public String getUserData() {
         return отриматиДаніКористувача();
     }
